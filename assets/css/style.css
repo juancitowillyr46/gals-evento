@@ -369,14 +369,14 @@ h4.heading-mini {
   font-weight: 600;
   text-transform: capitalize;
   font-size: 18px;
-  color: #000;
+  color: #1a529a;
   margin-bottom: 20px; }
 
 h3.heading-sec {
   font-weight: 600;
   display: block;
   margin-bottom: 40px;
-  color: #000;
+  color: #1a529a;
   font-size: 29px;
   text-transform: uppercase;
   text-align: center; }
@@ -562,7 +562,7 @@ nav.navbar.navbar-expand-lg .form-inline {
     -webkit-transition: all .3s; }
     .header.header-sticky .navbar-brand img {
       position: absolute;
-      top: 25px; }
+      top: 10px; }
   .header.header-sticky.sticky-active nav.navbar.navbar-expand-lg {
     position: fixed;
     left: 0;
@@ -574,7 +574,7 @@ nav.navbar.navbar-expand-lg .form-inline {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
     z-index: 9999; }
     .header.header-sticky.sticky-active nav.navbar.navbar-expand-lg .navbar-nav, .header.header-sticky.sticky-active nav.navbar.navbar-expand-lg .nav-link, .header.header-sticky.sticky-active nav.navbar.navbar-expand-lg .icon-search {
-      color: #000; }
+      color: #1a529a; }
     .header.header-sticky.sticky-active nav.navbar.navbar-expand-lg .navbar-brand img.logo-light {
       opacity: 0; }
     .header.header-sticky.sticky-active nav.navbar.navbar-expand-lg .navbar-brand img.logo-dark {
@@ -912,7 +912,7 @@ Accordoins card style
 
 /**********************************************footer*****************************************/
 #footer {
-  background-color: #000;
+  background-color: #1b58ad;
   padding: 60px 0; }
   #footer.shop-footer {
     background-color: #f7f7f7; }
@@ -982,10 +982,10 @@ Accordoins card style
   border-bottom: 1px solid #444; }
 
 .footer-bottom {
-  border-top: 1px solid #111;
+  border-top: 1px solid transparent;
   padding-top: 30px; }
   .footer-bottom span {
-    color: #999;
+    color: #fff;
     font-weight: 400;
     font-size: 14px; }
 
@@ -1293,7 +1293,7 @@ Accordoins card style
 
 .pricing-head {
   padding: 20px 10px;
-  background-color: #000;
+  background-color: #1b58ad;
   text-align: center; }
   .pricing-head h3 {
     margin: 0px;
@@ -1301,7 +1301,7 @@ Accordoins card style
 
 .pricing-rate {
   padding: 30px 10px;
-  background-color: #32d2ba;
+  background-color: #38ab3f;
   text-align: center; }
   .pricing-rate h1 {
     color: #FFF;
@@ -2253,31 +2253,31 @@ h3.page-tree-text {
     display: block;
     margin: 0 auto; }
   .person-section .social-btn {
-    margin-bottom: 0px; }
+    margin-bottom: 0px; text-align: center; }
 
 .person-desc {
-  padding: 15px 25px; }
+  padding: 15px 15px; text-align: center; }
 
 .person-desc h3 {
-  color: #000;
+  color: #1a529a;
   font-weight: 800;
   text-transform: uppercase;
   font-size: 14px;
-  margin-bottom: 2px; }
+  margin-bottom: 2px; line-height: 18px; }
 
 .person-desc span {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 10px;
-  color: #7a7a7a;
-  margin-left: 10px; }
+  color: #00882a;
+  margin-left: 0px; }
 
 .person-desc p {
-  text-align: left; }
+  text-align: center; }
 
 .team.social-btn li a i {
-  color: #7a7a7a;
-  border: 2px solid #7a7a7a; }
+  color: #1a529a;
+  border: 2px solid #1a529a; }
 
 .hire-sec .services-icon i {
   background-color: #32d2ba;
@@ -2766,3 +2766,11 @@ a.carousel-control i {
     bottom: 0px; } }
 
     
+.contact i {
+  border: 2px solid #32d2ba !important;
+  color: #32d2ba !important;
+}
+
+.logo-dark, .logo-light{
+  width: 100px !important;
+}
