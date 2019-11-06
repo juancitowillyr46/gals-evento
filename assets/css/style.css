@@ -913,7 +913,7 @@ Accordoins card style
 /**********************************************footer*****************************************/
 #footer {
   background-color: #1b58ad;
-  padding: 60px 0; }
+  padding: 5px 0; }
   #footer.shop-footer {
     background-color: #f7f7f7; }
     #footer.shop-footer .footer-bottom {
@@ -983,7 +983,7 @@ Accordoins card style
 
 .footer-bottom {
   border-top: 1px solid transparent;
-  padding-top: 30px; }
+  padding-top: 5px; }
   .footer-bottom span {
     color: #fff;
     font-weight: 400;
@@ -1185,8 +1185,8 @@ Accordoins card style
   color: #555; }
   .theme-btn-default:hover, .theme-btn-default:focus {
     color: #fff;
-    background-color: #000;
-    border-color: #000; }
+    background-color: #1b58ad;
+    border-color: #1b58ad; }
 
 /*theme color button*/
 .theme-btn-color {
@@ -1195,8 +1195,8 @@ Accordoins card style
   color: #fff; }
   .theme-btn-color:hover {
     color: #fff;
-    background-color: #000;
-    border-color: #000; }
+    background-color: #1b58ad;
+    border-color: #1b58ad; }
 
 .theme-btn-color-outline {
   background-color: transparent;
@@ -2256,7 +2256,7 @@ h3.page-tree-text {
     margin-bottom: 0px; text-align: center; }
 
 .person-desc {
-  padding: 15px 15px; text-align: center; }
+  padding: 10px 10px; text-align: center; }
 
 .person-desc h3 {
   color: #1a529a;
